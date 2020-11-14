@@ -1,5 +1,6 @@
 # java-study
-https://github.com/whiteship/live-study/issues 자바 온라인 스터디
+자바 온라인 스터디
+https://github.com/whiteship/live-study/issues
 
 
 - [1주차: JVM은 무엇이며 자바 코드는 어떻게 실행하는 것인가.](./study/1주차.md)
