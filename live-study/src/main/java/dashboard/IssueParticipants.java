@@ -25,8 +25,8 @@ public class IssueParticipants {
 		try {
 			for (GHIssueComment comment : issue.getComments()) {
 				Participant participant = this.getUserOrDefault(
-						comment.getUser().getName(),
-						Participant.of(comment.getUser().getName()));
+						comment.getUser().getLogin(),
+						Participant.of(comment.getUser().getLogin()));
 				participant.addIssueNumber(issue.getNumber());
 				participants.add(participant);
 			}
