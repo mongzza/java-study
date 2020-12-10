@@ -8,7 +8,7 @@ https://github.com/whiteship/live-study/issues
 - [3주차: 연산자](./study/3주차.md)
 - [4주차: 제어문](./study/4주차.md)
   - 구현 과제
-    - [소스코드](./live-study)
+    - [소스코드](./live-study/)
     - [대시보드](./live-study/DashBoard.md)
 - 5주차: 클래스
 - 6주차: 상속
