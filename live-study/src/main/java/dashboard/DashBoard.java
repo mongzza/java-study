@@ -7,7 +7,7 @@ public class DashBoard {
 	private static final String HEADER_WEEK = "주차";
 	private static final String HEADER_RATE = "참여율";
 
-	private static final String TABLE_LINE = "|";
+	private static final String TABLE_LINE = "| ";
 	private static final String TABLE_SEPARATE_LINE = "|---";
 
 	private static final String CHECKBOX = ":heavy_check_mark:";
