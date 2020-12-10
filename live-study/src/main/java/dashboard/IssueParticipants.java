@@ -3,16 +3,15 @@ package dashboard;
 import org.kohsuke.github.*;
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class IssueParticipants {
-	private final long issueCount;
-	private final HashMap<String, Integer> commentCounts;
+	private final int issueCount;
+	private final Set<Participant> participants;
 
 	private IssueParticipants(List<GHIssue> issues) {
 		this.issueCount = issues.size();
-		this.commentCounts = new HashMap<>();
+		this.participants = new HashSet<>();
 		for (GHIssue issue : issues) {
 			putAllParticipants(issue);
 		}
@@ -25,25 +24,30 @@ public class IssueParticipants {
 	private void putAllParticipants(GHIssue issue) {
 		try {
 			for (GHIssueComment comment : issue.getComments()) {
-				commentCounts.put(
+				Participant participant = this.getUserOrDefault(
 						comment.getUser().getName(),
-						commentCounts.getOrDefault(comment.getUser().getName(), 0) + 1);
+						Participant.of(comment.getUser().getName()));
+				participant.addIssueNumber(issue.getNumber());
+				participants.add(participant);
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
 
-	public long getIssueCount() {
+	private Participant getUserOrDefault(String name, Participant other) {
+		return participants.stream()
+				.filter(participant -> participant.isUser(name))
+				.findFirst()
+				.orElse(other);
+	}
+
+	public int getIssueCount() {
 		return issueCount;
 	}
 
-	public HashMap<String, Double> calculateAllParticipationRate() {
-		// (1.0 * 참여 개수 / issueCount) * 100.0
-		HashMap<String, Double> rateMap = new HashMap<>();
-		commentCounts.keySet().forEach(key -> {
-			rateMap.put(key, (1.0 * commentCounts.get(key) / issueCount) * 100.0);
-		});
-		return rateMap;
+	public Set<Participant> getParticipants() {
+		return Collections.unmodifiableSet(participants);
 	}
+
 }
