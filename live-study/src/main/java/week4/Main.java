@@ -1,5 +1,7 @@
-import dashboard.DashBoard;
-import dashboard.IssueParticipants;
+package week4;
+
+import week4.dashboard.DashBoard;
+import week4.dashboard.IssueParticipants;
 import org.kohsuke.github.GHRepository;
 import org.kohsuke.github.GitHub;
 import org.kohsuke.github.GitHubBuilder;

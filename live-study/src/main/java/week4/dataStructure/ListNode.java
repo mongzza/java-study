@@ -1,4 +1,4 @@
-package dataStructure;
+package week4.dataStructure;
 
 public class ListNode {
 	private int position;

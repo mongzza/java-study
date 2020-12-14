@@ -1,4 +1,4 @@
-package dashboard;
+package week4.dashboard;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

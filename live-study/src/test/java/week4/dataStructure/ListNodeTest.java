@@ -1,8 +1,9 @@
-package dataStructure;
+package week4.dataStructure;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import week4.dataStructure.ListNode;
 
 import static org.junit.jupiter.api.Assertions.*;
 
