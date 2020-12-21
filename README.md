@@ -11,7 +11,9 @@ https://github.com/whiteship/live-study/issues
     - [소스코드](./live-study/)
     - [대시보드](./live-study/DashBoard.md)
 - [5주차: 클래스](./study/5주차.md)
-- 6주차: 상속
+  - 구현 과제
+     - [소스코드](./live-study/src/main/java/week5)
+- [6주차: 상속](./study/6주차.md)
 - 7주차: 패키지
 - 8주차: 인터페이스
 - 9주차: 예외 처리
