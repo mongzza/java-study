@@ -15,7 +15,7 @@ https://github.com/whiteship/live-study/issues
      - [소스코드](./live-study/src/main/java/week5)
 - [6주차: 상속](./study/6주차.md)
 - [7주차: 패키지](./study/7주차.md)
-- 8주차: 인터페이스
+- [8주차: 인터페이스](./study/8주차.md)
 - 9주차: 예외 처리
 - 10주차: 멀티쓰레드 프로그래밍
 - 11주차: Enum
