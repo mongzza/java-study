@@ -17,7 +17,7 @@ https://github.com/whiteship/live-study/issues
 - [7주차: 패키지](./study/7주차.md)
 - [8주차: 인터페이스](./study/8주차.md)
 - [9주차: 예외 처리](./study/9주차.md)
-- 10주차: 멀티쓰레드 프로그래밍
+- [10주차: 멀티쓰레드 프로그래밍](./study/10주차.md)
 - 11주차: Enum
 - 12주차: 애노테이션
 - 13주차: I/O
