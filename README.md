@@ -19,7 +19,7 @@ https://github.com/whiteship/live-study/issues
 - [9주차: 예외 처리](./study/9주차.md)
 - [10주차: 멀티쓰레드 프로그래밍](./study/10주차.md)
 - [11주차: Enum](./study/11주차.md)
-- 12주차: 애노테이션
+- [12주차: 애노테이션](./study/12주차.md)
 - 13주차: I/O
 - 14주차: 제네릭
 - 15주차: 람다식
