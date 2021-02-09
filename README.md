@@ -20,7 +20,7 @@ https://github.com/whiteship/live-study/issues
 - [10주차: 멀티쓰레드 프로그래밍](./study/10주차.md)
 - [11주차: Enum](./study/11주차.md)
 - [12주차: 애노테이션](./study/12주차.md)
-- 13주차: I/O
+- [13주차: I/O](./study/13주차.md)
 - 14주차: 제네릭
 - 15주차: 람다식
 - 16주차: 문자열
