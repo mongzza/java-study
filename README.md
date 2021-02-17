@@ -26,3 +26,9 @@ https://github.com/whiteship/live-study/issues
 - 16주차: 문자열
 - 17주차: 콜렉션
 - 18주차: 스트림
+
+<br />
+
+## TODO
+- 13주차 보조스트림 내용 보충
+- 13주차 TCP 채널 블로킹/넌블로킹/동기/비동기 방식 구현
