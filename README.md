@@ -21,11 +21,8 @@ https://github.com/whiteship/live-study/issues
 - [11주차: Enum](./study/11주차.md)
 - [12주차: 애노테이션](./study/12주차.md)
 - [13주차: I/O](./study/13주차.md)
-- 14주차: 제네릭
+- [14주차: 제네릭](./study/14주차.md)
 - 15주차: 람다식
-- 16주차: 문자열
-- 17주차: 콜렉션
-- 18주차: 스트림
 
 <br />
 
