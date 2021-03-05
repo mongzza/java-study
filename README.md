@@ -22,7 +22,7 @@ https://github.com/whiteship/live-study/issues
 - [12주차: 애노테이션](./study/12주차.md)
 - [13주차: I/O](./study/13주차.md)
 - [14주차: 제네릭](./study/14주차.md)
-- 15주차: 람다식
+- [15주차: 람다식](./study/15주차.md)
 
 <br />
 
